@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/shopping_trolley/shopping_trolley",
+    "pages/my/my",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/videos/videos",
+    "pages/news-info/news-info",
+    "pages/goods-detail/goods-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "MyMarket",
+    "navigationBarBackgroundColor": "#f00001",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#dddce0",
+    "selectedColor": "#f00001",
+    "backgroundColor": "#f8f6fa",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "./static/icon/home-active.png"
+      },
+      {
+        "text": "资讯",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "./static/icon/news-active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/shopping_trolley/shopping_trolley",
+        "iconPath": "static/icon/cart.png",
+        "selectedIconPath": "./static/icon/cart-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "./static/icon/member.png",
+        "selectedIconPath": "./static/icon/member-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
